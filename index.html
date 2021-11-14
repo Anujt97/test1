@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css"/>
+        <title>registration Form</title>
+    </head>
+    <body>
+        <h2>REGISTRATION FORM </h2><hr>
+        <div id="f1">
+            <form>
+                <label><b>First name : </b></label>
+                <input type="text" placeholder="Enter First Name"><br><br>
+                <label><b>Last name : </b></label>
+                <input type="text" placeholder="Enter Last Name"><br><br>
+                <form>
+                <label><b>Degree :</b></label><br><br>
+                <input type="radio" id="html"  name="fav_language"><label>BE</label><br><br>
+                
+                <input type="radio" id="html" name="fav_language" ><label>ME</label><br><br> 
+                 
+                <input type="radio" id="html"  name="fav_language"><label>MBA</label><br><br>           
+                  
+                </form>
+                <form>
+                <label><b>Field : </b></label><br><br>
+                <input type="radio" id="html"  name="fav_language"><label>IT</label><br><br>
+                
+                <input type="radio" id="html" name="fav_language" ><label>COMP</label><br><br> 
+                 
+                <input type="radio" id="html"  name="fav_language"><label>ELEC</label><br><br> 
+                </form>
+                <label><b>Technical Skills : </b></label><br><br>
+                <input type="checkbox"/> Python <br><br>
+                <input type="checkbox"/> Java  <br><br>
+                <input type="checkbox"/> C++ <br><br>
+                <label><b>Email-id : </b></label>
+                <input type="Email" placeholder="Enter Email" pattern=".+@.+\..+" title="enter valid email format" required/><br><br>
+                <label><b>Password : </b></label>
+                <input type="Password" placeholder="Enter Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" title="Must contain one uppercase and lowercase latter and one number and atleast 8 or more character" required/><br><br>
+                
+                <button type="submit">SUBMIT</button>
+
+
+
+            </form>
+        </div>
+    </body>
+</html>
